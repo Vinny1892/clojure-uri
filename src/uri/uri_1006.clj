@@ -29,8 +29,8 @@
           (reduce multiplica-media-aluno)
           (divide-nota))))
 
-(println "MEDIA ="
-         (calcula-media nota1 nota2 nota3))
+(println (format "MEDIA = %.1f"
+                 (calcula-media nota1 nota2 nota3)))
 ;;; (println "MEDIA =")
 ;5.0  7.1
 ;3.5  7.5

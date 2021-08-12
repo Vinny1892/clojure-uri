@@ -23,7 +23,7 @@
       (divide-nota))))
 
 (println "MEDIA ="
-  (calcula-media n1 n2))
+         (format "%.5f" (calcula-media n1 n2)))
 ;;; (println "MEDIA =")
 ;5.0  7.1
 ;3.5  7.5

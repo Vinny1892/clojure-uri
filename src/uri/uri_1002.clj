@@ -11,4 +11,4 @@
   (let [phi 3.14159]
     (* phi (* raio raio))))
 
-(println "A=" (calcula-raio-circulo n1))
+(println (format "A=%.4f" (calcula-raio-circulo n1)))
